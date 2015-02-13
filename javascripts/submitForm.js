@@ -9,8 +9,8 @@ testObject.save({foo: "bar"}).then(function(object) {
 
 function submit () {
   var form = document.forms[0]
-  var firstName = form.elements[0]
-  var lastName = form.elements[1]
-  var email = form.elements[2]
+  var firstName = form.elements[0].value
+  var lastName = form.elements[1].value
+  var email = form.elements[2].value
   alert(firstName)
 }
