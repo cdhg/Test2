@@ -7,8 +7,7 @@ testObject.save({foo: "bar"}).then(function(object) {
   alert(firstName);
 });
 
-var button = document.getElementById("button");
-button.onclick = function(){
+function submit () {
   var form = document.forms[0]
   var firstName = form.elements[0]
   var lastName = form.elements[1]
